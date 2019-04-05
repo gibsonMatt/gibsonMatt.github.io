@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ page.title }} | {{ site.title }}</title>
+
+{% if site.google_analytics and jekyll.environment == 'production' %}
+{% include analytics.html %}
+{% endif %}
+
+<!-- Bootstrap -->
+<link rel="stylesheet" href="css/bootstrap.css">
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+  <div class="container">
+    <hr>
+    <div class="row">
+      <div class="col-xs-7">
+        <h1>{{ page.title }}</h1>
+      </div>
+      <div class="col-xs-5">
+        <a href="http://github.com/gibsonmatt"><img class="media-object img-circle img-responsive" src="AboutPageAssets\images\GitHub-Mark\GitHub-Mark\PNG\GitHub-Mark-64px.png" alt="..." width="32" align="right"></a>
+      </div>
+    </div>
+    <ul class="nav nav-tabs">
+      <li role="presentation"><a href="index.html">About</a></li>
+      <li role="presentation" class="active"><a href="research.html">Research</a></li>
+      <li role="presentation"><a href="AboutPageAssets/files/cv_for_web.pdf">CV</a></li>
+      <li role="presentation"><a href="resources.html">Resources</a></li>
+
+    </ul>
+
+    <hr>
+    <div class="row">
+      <div class="row" style="margin-left: 10px; margin-right:10px">
+        <div class="col-md-6">
+          <h2>Local adaptation</h2>
+          <hr>
+          <p><img src="AboutPageAssets/images/pca_both_colors_shifted.PNG" alt="..." width="250" style="float:right;" class="img-responsive img-rounded">{{ page.sections[0] | textilize }}</p>
+        </div>
+        <div class="col-md-6">
+          <h2>Galápagos conservation genetics</h2>
+          <hr>
+          <p><img src="AboutPageAssets/images/gal_col.PNG" alt="..." width="260" class="img-responsive img-rounded" style="float:right;">
+{{ page.sections[1] | textilize }}</p>
+        </div>
+      </div>
+      <div class="row" style="margin-left: 10px; margin-right:10px">
+        <div class="col-md-6">
+          <h2><em>Jaltomata </em>floral evolution</h2>
+          <hr>
+          <p><img src="AboutPageAssets/images/lod_plot.PNG" alt="..." width="1423" style="float:right;" class="img-responsive">{{ page.sections[2] | textilize }}</p>
+        </div>
+</div>
+    </div>
+   
+<hr>
+{% include footer.html %}
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="js/jquery-1.11.3.min.js"></script> 
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
