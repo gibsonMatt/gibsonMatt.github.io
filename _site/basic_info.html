@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<head>    <!DOCTYPE html>
 <head>
     <title>Interactive map of Galapagos field sites</title>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
@@ -15,8 +16,8 @@
     <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
     <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
     <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
-
-            <style> #map_784244fa2dfd4d64a27850a0992218ab {
+    
+            <style> #map_da26e1830f8e4ec8b1cf2a5eeb6ff4db {
                 position : relative;
                 width : 100.0%;
                 height: 100.0%;
@@ -28,7 +29,7 @@
 </head>
 <body>    
     
-            <div class="folium-map" id="map_784244fa2dfd4d64a27850a0992218ab" ></div>
+            <div class="folium-map" id="map_da26e1830f8e4ec8b1cf2a5eeb6ff4db" ></div>
         
 </body>
 <script>    
@@ -38,8 +39,8 @@
                 var bounds = null;
             
 
-            var map_784244fa2dfd4d64a27850a0992218ab = L.map(
-                                  'map_784244fa2dfd4d64a27850a0992218ab',
+            var map_da26e1830f8e4ec8b1cf2a5eeb6ff4db = L.map(
+                                  'map_da26e1830f8e4ec8b1cf2a5eeb6ff4db',
                                   {center: [-0.556061,-90.473281],
                                   zoom: 9,
                                   maxBounds: bounds,
@@ -50,7 +51,7 @@
             
         
     
-            var tile_layer_2ce82bb4f9f44686b525618e6b8192e7 = L.tileLayer(
+            var tile_layer_baf4b5b62ad24a9b97bcd665ffa0c451 = L.tileLayer(
                 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
                 {
   "attribution": null,
@@ -60,10 +61,11 @@
   "noWrap": false,
   "subdomains": "abc"
 }
-                ).addTo(map_784244fa2dfd4d64a27850a0992218ab);
+                ).addTo(map_da26e1830f8e4ec8b1cf2a5eeb6ff4db);
         
     
-            var circle_marker_dd804c2f54ef41efb21e7e0bb83ae1ac = L.circleMarker(
+
+            var circle_aa7058ce711d40a6bbea5e12aac2b695 = L.circle(
                 [-0.896911,-89.608612],
                 {
   "bubblingMouseEvents": true,
@@ -77,26 +79,27 @@
   "lineCap": "round",
   "lineJoin": "round",
   "opacity": 1.0,
-  "radius": 4,
+  "radius": 400,
   "stroke": true,
   "weight": 3
 }
-                ).addTo(map_784244fa2dfd4d64a27850a0992218ab);
+                ).addTo(map_da26e1830f8e4ec8b1cf2a5eeb6ff4db);
             
     
-            var popup_c99e9d503d1846fea1058d494ead6e35 = L.popup({maxWidth: '300'});
+            var popup_036a2707e6b34eb6baf7115d24e17746 = L.popup({maxWidth: '300'});
 
             
-                var html_387da3dd0131420bb3680ce58c0c5fcc = $('<div id="html_387da3dd0131420bb3680ce58c0c5fcc" style="width: 100.0%; height: 100.0%;">Population: MG101<br> Species: S. lycopersicum<br> Island: SCB<br> Latitude: -0.896911<br> Longitude: -89.608612<br> Local site name: Road to Playa Mann<br> Date sampled: 5/10/2018<br> Population size: 1<br> Sample size: 1</div>')[0];
-                popup_c99e9d503d1846fea1058d494ead6e35.setContent(html_387da3dd0131420bb3680ce58c0c5fcc);
+                var html_6e449675c63d443db7883666dfc432fd = $('<div id="html_6e449675c63d443db7883666dfc432fd" style="width: 100.0%; height: 100.0%;">Population: MG101<br> Species: S. lycopersicum<br> Island: SCB<br> Latitude: -0.896911<br> Longitude: -89.608612<br> Local site name: Road to Playa Mann<br> Date sampled: 5/10/2018<br> Population size: 1<br> Sample size: 1</div>')[0];
+                popup_036a2707e6b34eb6baf7115d24e17746.setContent(html_6e449675c63d443db7883666dfc432fd);
             
 
-            circle_marker_dd804c2f54ef41efb21e7e0bb83ae1ac.bindPopup(popup_c99e9d503d1846fea1058d494ead6e35);
+            circle_aa7058ce711d40a6bbea5e12aac2b695.bindPopup(popup_036a2707e6b34eb6baf7115d24e17746);
 
             
         
     
-            var circle_marker_d4cae1aa413c4288a87a5ba5f360fd1b = L.circleMarker(
+
+            var circle_ce9bd9fc94e7466f903d8dcddcf84228 = L.circle(
                 [-0.896156,-89.60927099999999],
                 {
   "bubblingMouseEvents": true,
@@ -110,26 +113,27 @@
   "lineCap": "round",
   "lineJoin": "round",
   "opacity": 1.0,
-  "radius": 4,
+  "radius": 400,
   "stroke": true,
   "weight": 3
 }
-                ).addTo(map_784244fa2dfd4d64a27850a0992218ab);
+                ).addTo(map_da26e1830f8e4ec8b1cf2a5eeb6ff4db);
             
     
-            var popup_e8e2980d2c0647a4a540a2d8b7827afa = L.popup({maxWidth: '300'});
+            var popup_e10ae33538e242e29132f1799a0b091b = L.popup({maxWidth: '300'});
 
             
-                var html_e4846b57760342868927dd32fcf0b570 = $('<div id="html_e4846b57760342868927dd32fcf0b570" style="width: 100.0%; height: 100.0%;">Population: MG103<br> Species: S. lycopersicum<br> Island: SCB<br> Latitude: -0.896156<br> Longitude: -89.60927099999999<br> Local site name: Playa Mann<br> Date sampled: 5/10/2018<br> Population size: 3<br> Sample size: 2</div>')[0];
-                popup_e8e2980d2c0647a4a540a2d8b7827afa.setContent(html_e4846b57760342868927dd32fcf0b570);
+                var html_530aa0e8f075450299065b7f7aa5043b = $('<div id="html_530aa0e8f075450299065b7f7aa5043b" style="width: 100.0%; height: 100.0%;">Population: MG103<br> Species: S. lycopersicum<br> Island: SCB<br> Latitude: -0.896156<br> Longitude: -89.60927099999999<br> Local site name: Playa Mann<br> Date sampled: 5/10/2018<br> Population size: 3<br> Sample size: 2</div>')[0];
+                popup_e10ae33538e242e29132f1799a0b091b.setContent(html_530aa0e8f075450299065b7f7aa5043b);
             
 
-            circle_marker_d4cae1aa413c4288a87a5ba5f360fd1b.bindPopup(popup_e8e2980d2c0647a4a540a2d8b7827afa);
+            circle_ce9bd9fc94e7466f903d8dcddcf84228.bindPopup(popup_e10ae33538e242e29132f1799a0b091b);
 
             
         
     
-            var circle_marker_24ddf677e9034e4aa9e397ae756e44d1 = L.circleMarker(
+
+            var circle_f340c7fd01824c61b2bf05577c3b1fb6 = L.circle(
                 [-0.9097540000000001,-89.608524],
                 {
   "bubblingMouseEvents": true,
@@ -143,26 +147,27 @@
   "lineCap": "round",
   "lineJoin": "round",
   "opacity": 1.0,
-  "radius": 4,
+  "radius": 400,
   "stroke": true,
   "weight": 3
 }
-                ).addTo(map_784244fa2dfd4d64a27850a0992218ab);
+                ).addTo(map_da26e1830f8e4ec8b1cf2a5eeb6ff4db);
             
     
-            var popup_74bd2b0244744ff7a14617b0687da3ba = L.popup({maxWidth: '300'});
+            var popup_a528519fc04e496faa60ca6c50198b1a = L.popup({maxWidth: '300'});
 
             
-                var html_42b04c850f0e4acfbba6d665382446a9 = $('<div id="html_42b04c850f0e4acfbba6d665382446a9" style="width: 100.0%; height: 100.0%;">Population: MG104<br> Species: S. lycopersicum<br> Island: SCB<br> Latitude: -0.9097540000000001<br> Longitude: -89.608524<br> Local site name: Puerto Baquerizo<br> Date sampled: 5/11/2018<br> Population size: 1<br> Sample size: 1</div>')[0];
-                popup_74bd2b0244744ff7a14617b0687da3ba.setContent(html_42b04c850f0e4acfbba6d665382446a9);
+                var html_07d071b273184779a14ac1ce10366811 = $('<div id="html_07d071b273184779a14ac1ce10366811" style="width: 100.0%; height: 100.0%;">Population: MG104<br> Species: S. lycopersicum<br> Island: SCB<br> Latitude: -0.9097540000000001<br> Longitude: -89.608524<br> Local site name: Puerto Baquerizo<br> Date sampled: 5/11/2018<br> Population size: 1<br> Sample size: 1</div>')[0];
+                popup_a528519fc04e496faa60ca6c50198b1a.setContent(html_07d071b273184779a14ac1ce10366811);
             
 
-            circle_marker_24ddf677e9034e4aa9e397ae756e44d1.bindPopup(popup_74bd2b0244744ff7a14617b0687da3ba);
+            circle_f340c7fd01824c61b2bf05577c3b1fb6.bindPopup(popup_a528519fc04e496faa60ca6c50198b1a);
 
             
         
     
-            var circle_marker_826815f452de4ea5b6fb2356f7c1ef3b = L.circleMarker(
+
+            var circle_178b7c4bd5b04209909428ae84f54264 = L.circle(
                 [-0.90799,-89.555661],
                 {
   "bubblingMouseEvents": true,
@@ -176,26 +181,27 @@
   "lineCap": "round",
   "lineJoin": "round",
   "opacity": 1.0,
-  "radius": 4,
+  "radius": 400,
   "stroke": true,
   "weight": 3
 }
-                ).addTo(map_784244fa2dfd4d64a27850a0992218ab);
+                ).addTo(map_da26e1830f8e4ec8b1cf2a5eeb6ff4db);
             
     
-            var popup_b1507ffc32404456996b875151d37db8 = L.popup({maxWidth: '300'});
+            var popup_5b94291e0f24426b96f78433bffbf8f5 = L.popup({maxWidth: '300'});
 
             
-                var html_4a6c9e8c785747b2837a0d1ed6da2713 = $('<div id="html_4a6c9e8c785747b2837a0d1ed6da2713" style="width: 100.0%; height: 100.0%;">Population: MG105<br> Species: S. pimpinellifolium<br> Island: SCB<br> Latitude: -0.90799<br> Longitude: -89.555661<br> Local site name: Progresso<br> Date sampled: 5/11/2018<br> Population size: 10<br> Sample size: 8</div>')[0];
-                popup_b1507ffc32404456996b875151d37db8.setContent(html_4a6c9e8c785747b2837a0d1ed6da2713);
+                var html_9c960bbfb1c041e18ce2d920c9e3a63e = $('<div id="html_9c960bbfb1c041e18ce2d920c9e3a63e" style="width: 100.0%; height: 100.0%;">Population: MG105<br> Species: S. pimpinellifolium<br> Island: SCB<br> Latitude: -0.90799<br> Longitude: -89.555661<br> Local site name: Progresso<br> Date sampled: 5/11/2018<br> Population size: 10<br> Sample size: 8</div>')[0];
+                popup_5b94291e0f24426b96f78433bffbf8f5.setContent(html_9c960bbfb1c041e18ce2d920c9e3a63e);
             
 
-            circle_marker_826815f452de4ea5b6fb2356f7c1ef3b.bindPopup(popup_b1507ffc32404456996b875151d37db8);
+            circle_178b7c4bd5b04209909428ae84f54264.bindPopup(popup_5b94291e0f24426b96f78433bffbf8f5);
 
             
         
     
-            var circle_marker_dfa901de90d043f6b38adb60566b5a93 = L.circleMarker(
+
+            var circle_50384523d0224e808dd2e15c998eb849 = L.circle(
                 [-0.9109870000000001,-89.55458],
                 {
   "bubblingMouseEvents": true,
@@ -209,26 +215,27 @@
   "lineCap": "round",
   "lineJoin": "round",
   "opacity": 1.0,
-  "radius": 4,
+  "radius": 400,
   "stroke": true,
   "weight": 3
 }
-                ).addTo(map_784244fa2dfd4d64a27850a0992218ab);
+                ).addTo(map_da26e1830f8e4ec8b1cf2a5eeb6ff4db);
             
     
-            var popup_e46c4ae01e09456f90573ffe579d05b8 = L.popup({maxWidth: '300'});
+            var popup_debe38f12b7d47acaea8b26d1faa880e = L.popup({maxWidth: '300'});
 
             
-                var html_ea288e9f8bf643db8fefd6b526a373ac = $('<div id="html_ea288e9f8bf643db8fefd6b526a373ac" style="width: 100.0%; height: 100.0%;">Population: MG106<br> Species: S. lycopersicum<br> Island: SCB<br> Latitude: -0.9109870000000001<br> Longitude: -89.55458<br> Local site name: Progresso<br> Date sampled: 5/11/2018<br> Population size: 3<br> Sample size: 3</div>')[0];
-                popup_e46c4ae01e09456f90573ffe579d05b8.setContent(html_ea288e9f8bf643db8fefd6b526a373ac);
+                var html_d3624d34315148c59322783df3698e94 = $('<div id="html_d3624d34315148c59322783df3698e94" style="width: 100.0%; height: 100.0%;">Population: MG106<br> Species: S. lycopersicum<br> Island: SCB<br> Latitude: -0.9109870000000001<br> Longitude: -89.55458<br> Local site name: Progresso<br> Date sampled: 5/11/2018<br> Population size: 3<br> Sample size: 3</div>')[0];
+                popup_debe38f12b7d47acaea8b26d1faa880e.setContent(html_d3624d34315148c59322783df3698e94);
             
 
-            circle_marker_dfa901de90d043f6b38adb60566b5a93.bindPopup(popup_e46c4ae01e09456f90573ffe579d05b8);
+            circle_50384523d0224e808dd2e15c998eb849.bindPopup(popup_debe38f12b7d47acaea8b26d1faa880e);
 
             
         
     
-            var circle_marker_7dbb80e7144c4f0fbf6f5a54d804dd60 = L.circleMarker(
+
+            var circle_1fe3bf63bf46422e9bfc42b2e8a9c682 = L.circle(
                 [-0.8997200000000001,-89.55379599999999],
                 {
   "bubblingMouseEvents": true,
@@ -242,26 +249,27 @@
   "lineCap": "round",
   "lineJoin": "round",
   "opacity": 1.0,
-  "radius": 4,
+  "radius": 400,
   "stroke": true,
   "weight": 3
 }
-                ).addTo(map_784244fa2dfd4d64a27850a0992218ab);
+                ).addTo(map_da26e1830f8e4ec8b1cf2a5eeb6ff4db);
             
     
-            var popup_568449d08b934516af924c4517a93e66 = L.popup({maxWidth: '300'});
+            var popup_9a88ad6ca8dd4d0fbe8b2cfd03044d81 = L.popup({maxWidth: '300'});
 
             
-                var html_6ba2a54fac9a458d94d471dfa263ec4a = $('<div id="html_6ba2a54fac9a458d94d471dfa263ec4a" style="width: 100.0%; height: 100.0%;">Population: MG107<br> Species: S. pimpinellifolium<br> Island: SCB<br> Latitude: -0.8997200000000001<br> Longitude: -89.55379599999999<br> Local site name: Soledad<br> Date sampled: 5/11/2018<br> Population size: 15<br> Sample size: 10</div>')[0];
-                popup_568449d08b934516af924c4517a93e66.setContent(html_6ba2a54fac9a458d94d471dfa263ec4a);
+                var html_c8c2e3cdb0cf4c99897c430791cc7601 = $('<div id="html_c8c2e3cdb0cf4c99897c430791cc7601" style="width: 100.0%; height: 100.0%;">Population: MG107<br> Species: S. pimpinellifolium<br> Island: SCB<br> Latitude: -0.8997200000000001<br> Longitude: -89.55379599999999<br> Local site name: Soledad<br> Date sampled: 5/11/2018<br> Population size: 15<br> Sample size: 10</div>')[0];
+                popup_9a88ad6ca8dd4d0fbe8b2cfd03044d81.setContent(html_c8c2e3cdb0cf4c99897c430791cc7601);
             
 
-            circle_marker_7dbb80e7144c4f0fbf6f5a54d804dd60.bindPopup(popup_568449d08b934516af924c4517a93e66);
+            circle_1fe3bf63bf46422e9bfc42b2e8a9c682.bindPopup(popup_9a88ad6ca8dd4d0fbe8b2cfd03044d81);
 
             
         
     
-            var circle_marker_54fbbb7e4f5c45f28708ca0a5e257f89 = L.circleMarker(
+
+            var circle_56886a58954d431d89be40e0b6282b43 = L.circle(
                 [-0.8931180000000001,-89.61075799999999],
                 {
   "bubblingMouseEvents": true,
@@ -275,26 +283,27 @@
   "lineCap": "round",
   "lineJoin": "round",
   "opacity": 1.0,
-  "radius": 4,
+  "radius": 400,
   "stroke": true,
   "weight": 3
 }
-                ).addTo(map_784244fa2dfd4d64a27850a0992218ab);
+                ).addTo(map_da26e1830f8e4ec8b1cf2a5eeb6ff4db);
             
     
-            var popup_bd90c15ac5f14ad3a979236bad37590c = L.popup({maxWidth: '300'});
+            var popup_a7009f6419fc4e89bca881020013bab9 = L.popup({maxWidth: '300'});
 
             
-                var html_378f2d25cfbd4f8cb228aae4a8af5e90 = $('<div id="html_378f2d25cfbd4f8cb228aae4a8af5e90" style="width: 100.0%; height: 100.0%;">Population: MG109<br> Species: S. pimpinellifolium<br> Island: SCB<br> Latitude: -0.8931180000000001<br> Longitude: -89.61075799999999<br> Local site name: Pedrial<br> Date sampled: 5/12/2018<br> Population size: 2<br> Sample size: 2</div>')[0];
-                popup_bd90c15ac5f14ad3a979236bad37590c.setContent(html_378f2d25cfbd4f8cb228aae4a8af5e90);
+                var html_5efb726f255e431a8aa6116ee16ec09a = $('<div id="html_5efb726f255e431a8aa6116ee16ec09a" style="width: 100.0%; height: 100.0%;">Population: MG109<br> Species: S. pimpinellifolium<br> Island: SCB<br> Latitude: -0.8931180000000001<br> Longitude: -89.61075799999999<br> Local site name: Pedrial<br> Date sampled: 5/12/2018<br> Population size: 2<br> Sample size: 2</div>')[0];
+                popup_a7009f6419fc4e89bca881020013bab9.setContent(html_5efb726f255e431a8aa6116ee16ec09a);
             
 
-            circle_marker_54fbbb7e4f5c45f28708ca0a5e257f89.bindPopup(popup_bd90c15ac5f14ad3a979236bad37590c);
+            circle_56886a58954d431d89be40e0b6282b43.bindPopup(popup_a7009f6419fc4e89bca881020013bab9);
 
             
         
     
-            var circle_marker_647ac9c3ba7b4ebfa45099fad6c3cd4a = L.circleMarker(
+
+            var circle_b73510e76a4c4cf891ff0e6d4bcd9b4b = L.circle(
                 [-0.9039889999999999,-89.61304100000001],
                 {
   "bubblingMouseEvents": true,
@@ -308,26 +317,27 @@
   "lineCap": "round",
   "lineJoin": "round",
   "opacity": 1.0,
-  "radius": 4,
+  "radius": 400,
   "stroke": true,
   "weight": 3
 }
-                ).addTo(map_784244fa2dfd4d64a27850a0992218ab);
+                ).addTo(map_da26e1830f8e4ec8b1cf2a5eeb6ff4db);
             
     
-            var popup_0992869ede344658945d5c8fcee6a78a = L.popup({maxWidth: '300'});
+            var popup_a7b107c4bbac4cecbf3dc37dad008852 = L.popup({maxWidth: '300'});
 
             
-                var html_04e9a74ab22141ad8309bbb7f741b87b = $('<div id="html_04e9a74ab22141ad8309bbb7f741b87b" style="width: 100.0%; height: 100.0%;">Population: MG110<br> Species: S. lycopersicum<br> Island: SCB<br> Latitude: -0.9039889999999999<br> Longitude: -89.61304100000001<br> Local site name: Puerto Baquerizo<br> Date sampled: 5/12/2018<br> Population size: 1<br> Sample size: 1</div>')[0];
-                popup_0992869ede344658945d5c8fcee6a78a.setContent(html_04e9a74ab22141ad8309bbb7f741b87b);
+                var html_d24be32992774133badd54b8dc9d6814 = $('<div id="html_d24be32992774133badd54b8dc9d6814" style="width: 100.0%; height: 100.0%;">Population: MG110<br> Species: S. lycopersicum<br> Island: SCB<br> Latitude: -0.9039889999999999<br> Longitude: -89.61304100000001<br> Local site name: Puerto Baquerizo<br> Date sampled: 5/12/2018<br> Population size: 1<br> Sample size: 1</div>')[0];
+                popup_a7b107c4bbac4cecbf3dc37dad008852.setContent(html_d24be32992774133badd54b8dc9d6814);
             
 
-            circle_marker_647ac9c3ba7b4ebfa45099fad6c3cd4a.bindPopup(popup_0992869ede344658945d5c8fcee6a78a);
+            circle_b73510e76a4c4cf891ff0e6d4bcd9b4b.bindPopup(popup_a7b107c4bbac4cecbf3dc37dad008852);
 
             
         
     
-            var circle_marker_09037a57f3e74c50bb815e0d88268521 = L.circleMarker(
+
+            var circle_9db1812665f74a78a67fe1c137c67e9e = L.circle(
                 [-0.9011379999999999,-89.610079],
                 {
   "bubblingMouseEvents": true,
@@ -341,26 +351,27 @@
   "lineCap": "round",
   "lineJoin": "round",
   "opacity": 1.0,
-  "radius": 4,
+  "radius": 400,
   "stroke": true,
   "weight": 3
 }
-                ).addTo(map_784244fa2dfd4d64a27850a0992218ab);
+                ).addTo(map_da26e1830f8e4ec8b1cf2a5eeb6ff4db);
             
     
-            var popup_b55ab4f827cb4dce99523cc38f778244 = L.popup({maxWidth: '300'});
+            var popup_99d590ebd6b1488aa60a3674d6ceddd0 = L.popup({maxWidth: '300'});
 
             
-                var html_39c5dd6e54d94fa09d1edc7b984a33db = $('<div id="html_39c5dd6e54d94fa09d1edc7b984a33db" style="width: 100.0%; height: 100.0%;">Population: MG111<br> Species: lycoXpimp<br> Island: SCB<br> Latitude: -0.9011379999999999<br> Longitude: -89.610079<br> Local site name: Puerto Baquerizo<br> Date sampled: 5/12/2018<br> Population size: 25<br> Sample size: 15</div>')[0];
-                popup_b55ab4f827cb4dce99523cc38f778244.setContent(html_39c5dd6e54d94fa09d1edc7b984a33db);
+                var html_9e2e96f50c0f4eb8b664437818f75cd6 = $('<div id="html_9e2e96f50c0f4eb8b664437818f75cd6" style="width: 100.0%; height: 100.0%;">Population: MG111<br> Species: lycoXpimp<br> Island: SCB<br> Latitude: -0.9011379999999999<br> Longitude: -89.610079<br> Local site name: Puerto Baquerizo<br> Date sampled: 5/12/2018<br> Population size: 25<br> Sample size: 15</div>')[0];
+                popup_99d590ebd6b1488aa60a3674d6ceddd0.setContent(html_9e2e96f50c0f4eb8b664437818f75cd6);
             
 
-            circle_marker_09037a57f3e74c50bb815e0d88268521.bindPopup(popup_b55ab4f827cb4dce99523cc38f778244);
+            circle_9db1812665f74a78a67fe1c137c67e9e.bindPopup(popup_99d590ebd6b1488aa60a3674d6ceddd0);
 
             
         
     
-            var circle_marker_e69637bf2c7c4609864f7e62f169800a = L.circleMarker(
+
+            var circle_3d47c1e5096444a497f6523f1658a077 = L.circle(
                 [-0.684878,-90.327229],
                 {
   "bubblingMouseEvents": true,
@@ -374,26 +385,27 @@
   "lineCap": "round",
   "lineJoin": "round",
   "opacity": 1.0,
-  "radius": 4,
+  "radius": 400,
   "stroke": true,
   "weight": 3
 }
-                ).addTo(map_784244fa2dfd4d64a27850a0992218ab);
+                ).addTo(map_da26e1830f8e4ec8b1cf2a5eeb6ff4db);
             
     
-            var popup_0758dd82384d44568af3a813a19a5065 = L.popup({maxWidth: '300'});
+            var popup_0cc6c4b37aa64406aeed7909b62ad226 = L.popup({maxWidth: '300'});
 
             
-                var html_63046a647d324e3596eb9028ec5ce505 = $('<div id="html_63046a647d324e3596eb9028ec5ce505" style="width: 100.0%; height: 100.0%;">Population: MG113<br> Species: pimpXcheese<br> Island: SCZ<br> Latitude: -0.684878<br> Longitude: -90.327229<br> Local site name: Café farm in Bellavista<br> Date sampled: 5/18/2018<br> Population size: 400<br> Sample size: 10</div>')[0];
-                popup_0758dd82384d44568af3a813a19a5065.setContent(html_63046a647d324e3596eb9028ec5ce505);
+                var html_917489009e3d4241bb1ef1a9c490d30a = $('<div id="html_917489009e3d4241bb1ef1a9c490d30a" style="width: 100.0%; height: 100.0%;">Population: MG113<br> Species: pimpXcheese<br> Island: SCZ<br> Latitude: -0.684878<br> Longitude: -90.327229<br> Local site name: Café farm in Bellavista<br> Date sampled: 5/18/2018<br> Population size: 400<br> Sample size: 10</div>')[0];
+                popup_0cc6c4b37aa64406aeed7909b62ad226.setContent(html_917489009e3d4241bb1ef1a9c490d30a);
             
 
-            circle_marker_e69637bf2c7c4609864f7e62f169800a.bindPopup(popup_0758dd82384d44568af3a813a19a5065);
+            circle_3d47c1e5096444a497f6523f1658a077.bindPopup(popup_0cc6c4b37aa64406aeed7909b62ad226);
 
             
         
     
-            var circle_marker_25067d7b57484719a9a500e0515a7f26 = L.circleMarker(
+
+            var circle_6801fab967f747b1a70c52542c865b16 = L.circle(
                 [-0.61525,-90.36684699999999],
                 {
   "bubblingMouseEvents": true,
@@ -407,26 +419,27 @@
   "lineCap": "round",
   "lineJoin": "round",
   "opacity": 1.0,
-  "radius": 4,
+  "radius": 400,
   "stroke": true,
   "weight": 3
 }
-                ).addTo(map_784244fa2dfd4d64a27850a0992218ab);
+                ).addTo(map_da26e1830f8e4ec8b1cf2a5eeb6ff4db);
             
     
-            var popup_1a0d059f198b4fd0a2c935eda1857759 = L.popup({maxWidth: '300'});
+            var popup_eb9de1d2a01f4166ac5e5c07fb05283b = L.popup({maxWidth: '300'});
 
             
-                var html_8ba5aa433a2d4c5691431289180b009e = $('<div id="html_8ba5aa433a2d4c5691431289180b009e" style="width: 100.0%; height: 100.0%;">Population: MG114<br> Species: pimpXcheese<br> Island: SCZ<br> Latitude: -0.61525<br> Longitude: -90.36684699999999<br> Local site name: Mina Roja<br> Date sampled: 5/18/2018<br> Population size: 300<br> Sample size: 15</div>')[0];
-                popup_1a0d059f198b4fd0a2c935eda1857759.setContent(html_8ba5aa433a2d4c5691431289180b009e);
+                var html_e1f2190b46cf40cbb65ec0e2c3943ede = $('<div id="html_e1f2190b46cf40cbb65ec0e2c3943ede" style="width: 100.0%; height: 100.0%;">Population: MG114<br> Species: pimpXcheese<br> Island: SCZ<br> Latitude: -0.61525<br> Longitude: -90.36684699999999<br> Local site name: Mina Roja<br> Date sampled: 5/18/2018<br> Population size: 300<br> Sample size: 15</div>')[0];
+                popup_eb9de1d2a01f4166ac5e5c07fb05283b.setContent(html_e1f2190b46cf40cbb65ec0e2c3943ede);
             
 
-            circle_marker_25067d7b57484719a9a500e0515a7f26.bindPopup(popup_1a0d059f198b4fd0a2c935eda1857759);
+            circle_6801fab967f747b1a70c52542c865b16.bindPopup(popup_eb9de1d2a01f4166ac5e5c07fb05283b);
 
             
         
     
-            var circle_marker_fb0316edc93e44f6a75773a509802e29 = L.circleMarker(
+
+            var circle_120db5ad13dd4e26ade3ed1d8f88666b = L.circle(
                 [-0.5600641,-90.332402],
                 {
   "bubblingMouseEvents": true,
@@ -440,26 +453,27 @@
   "lineCap": "round",
   "lineJoin": "round",
   "opacity": 1.0,
-  "radius": 4,
+  "radius": 400,
   "stroke": true,
   "weight": 3
 }
-                ).addTo(map_784244fa2dfd4d64a27850a0992218ab);
+                ).addTo(map_da26e1830f8e4ec8b1cf2a5eeb6ff4db);
             
     
-            var popup_40bf600cfde140b4b6264d4d89583296 = L.popup({maxWidth: '300'});
+            var popup_4dd3af777a7b41f1b1be19a60fb97cc1 = L.popup({maxWidth: '300'});
 
             
-                var html_f447a5110f384efcb37f6b8fb58bb2c7 = $('<div id="html_f447a5110f384efcb37f6b8fb58bb2c7" style="width: 100.0%; height: 100.0%;">Population: MG115<br> Species: S. cheesmaniae; S. pimpinellifolium; pimpXcheese<br> Island: SCZ<br> Latitude: -0.5600641<br> Longitude: -90.332402<br> Local site name: Baltra Road<br> Date sampled: 5/18/2018<br> Population size: 25<br> Sample size: 20</div>')[0];
-                popup_40bf600cfde140b4b6264d4d89583296.setContent(html_f447a5110f384efcb37f6b8fb58bb2c7);
+                var html_b6dcf896e5a5442c96d88c798f66bd47 = $('<div id="html_b6dcf896e5a5442c96d88c798f66bd47" style="width: 100.0%; height: 100.0%;">Population: MG115<br> Species: S. cheesmaniae; S. pimpinellifolium; pimpXcheese<br> Island: SCZ<br> Latitude: -0.5600641<br> Longitude: -90.332402<br> Local site name: Baltra Road<br> Date sampled: 5/18/2018<br> Population size: 25<br> Sample size: 20</div>')[0];
+                popup_4dd3af777a7b41f1b1be19a60fb97cc1.setContent(html_b6dcf896e5a5442c96d88c798f66bd47);
             
 
-            circle_marker_fb0316edc93e44f6a75773a509802e29.bindPopup(popup_40bf600cfde140b4b6264d4d89583296);
+            circle_120db5ad13dd4e26ade3ed1d8f88666b.bindPopup(popup_4dd3af777a7b41f1b1be19a60fb97cc1);
 
             
         
     
-            var circle_marker_18ff7094709f464f957d67f32a1b5754 = L.circleMarker(
+
+            var circle_6e889e445f6644e196a00a2f24f8cf66 = L.circle(
                 [-0.74695,-90.314839],
                 {
   "bubblingMouseEvents": true,
@@ -473,26 +487,27 @@
   "lineCap": "round",
   "lineJoin": "round",
   "opacity": 1.0,
-  "radius": 4,
+  "radius": 400,
   "stroke": true,
   "weight": 3
 }
-                ).addTo(map_784244fa2dfd4d64a27850a0992218ab);
+                ).addTo(map_da26e1830f8e4ec8b1cf2a5eeb6ff4db);
             
     
-            var popup_b72bb964d09744dbbe9c5ff4d3d4c98b = L.popup({maxWidth: '300'});
+            var popup_d109e248b174496288fa4e1bcea51887 = L.popup({maxWidth: '300'});
 
             
-                var html_559c7decb8f540989945f364652825a3 = $('<div id="html_559c7decb8f540989945f364652825a3" style="width: 100.0%; height: 100.0%;">Population: MG116<br> Species: S. pimpinellifolium; S. lycopersicum<br> Island: SCZ<br> Latitude: -0.74695<br> Longitude: -90.314839<br> Local site name: Puerto Ayora<br> Date sampled: 5/19/2018<br> Population size: 15<br> Sample size: 12</div>')[0];
-                popup_b72bb964d09744dbbe9c5ff4d3d4c98b.setContent(html_559c7decb8f540989945f364652825a3);
+                var html_50637f86723a4a16a3fcf0d92476d40f = $('<div id="html_50637f86723a4a16a3fcf0d92476d40f" style="width: 100.0%; height: 100.0%;">Population: MG116<br> Species: S. pimpinellifolium; S. lycopersicum<br> Island: SCZ<br> Latitude: -0.74695<br> Longitude: -90.314839<br> Local site name: Puerto Ayora<br> Date sampled: 5/19/2018<br> Population size: 15<br> Sample size: 12</div>')[0];
+                popup_d109e248b174496288fa4e1bcea51887.setContent(html_50637f86723a4a16a3fcf0d92476d40f);
             
 
-            circle_marker_18ff7094709f464f957d67f32a1b5754.bindPopup(popup_b72bb964d09744dbbe9c5ff4d3d4c98b);
+            circle_6e889e445f6644e196a00a2f24f8cf66.bindPopup(popup_d109e248b174496288fa4e1bcea51887);
 
             
         
     
-            var circle_marker_9c3ac1e62fa44feda0ff51b7c1900c5e = L.circleMarker(
+
+            var circle_066bd2db00894e4db3df74861a19bc65 = L.circle(
                 [-0.7131350000000001,-90.325503],
                 {
   "bubblingMouseEvents": true,
@@ -506,26 +521,27 @@
   "lineCap": "round",
   "lineJoin": "round",
   "opacity": 1.0,
-  "radius": 4,
+  "radius": 400,
   "stroke": true,
   "weight": 3
 }
-                ).addTo(map_784244fa2dfd4d64a27850a0992218ab);
+                ).addTo(map_da26e1830f8e4ec8b1cf2a5eeb6ff4db);
             
     
-            var popup_f80ec65e30cb41399ca554d8af01f51a = L.popup({maxWidth: '300'});
+            var popup_5b624badda3f438fa46678a3f9559135 = L.popup({maxWidth: '300'});
 
             
-                var html_8ed99596eac54679bd4ce50e19c19e4a = $('<div id="html_8ed99596eac54679bd4ce50e19c19e4a" style="width: 100.0%; height: 100.0%;">Population: MG117<br> Species: pimpXcheese<br> Island: SCZ<br> Latitude: -0.7131350000000001<br> Longitude: -90.325503<br> Local site name: Thomas Berlanga<br> Date sampled: 5/19/2018<br> Population size: 70<br> Sample size: 12</div>')[0];
-                popup_f80ec65e30cb41399ca554d8af01f51a.setContent(html_8ed99596eac54679bd4ce50e19c19e4a);
+                var html_18f06cb4c400497580f0cf8e990691d9 = $('<div id="html_18f06cb4c400497580f0cf8e990691d9" style="width: 100.0%; height: 100.0%;">Population: MG117<br> Species: pimpXcheese<br> Island: SCZ<br> Latitude: -0.7131350000000001<br> Longitude: -90.325503<br> Local site name: Thomas Berlanga<br> Date sampled: 5/19/2018<br> Population size: 70<br> Sample size: 12</div>')[0];
+                popup_5b624badda3f438fa46678a3f9559135.setContent(html_18f06cb4c400497580f0cf8e990691d9);
             
 
-            circle_marker_9c3ac1e62fa44feda0ff51b7c1900c5e.bindPopup(popup_f80ec65e30cb41399ca554d8af01f51a);
+            circle_066bd2db00894e4db3df74861a19bc65.bindPopup(popup_5b624badda3f438fa46678a3f9559135);
 
             
         
     
-            var circle_marker_c386f0245a6244f68511eb73c4ccf0c6 = L.circleMarker(
+
+            var circle_e7c9c9e0c1ea48dfa58365fb799189b0 = L.circle(
                 [-0.671528,-90.26289399999999],
                 {
   "bubblingMouseEvents": true,
@@ -539,26 +555,27 @@
   "lineCap": "round",
   "lineJoin": "round",
   "opacity": 1.0,
-  "radius": 4,
+  "radius": 400,
   "stroke": true,
   "weight": 3
 }
-                ).addTo(map_784244fa2dfd4d64a27850a0992218ab);
+                ).addTo(map_da26e1830f8e4ec8b1cf2a5eeb6ff4db);
             
     
-            var popup_443bab886260461f80f8afe9151ed098 = L.popup({maxWidth: '300'});
+            var popup_b88e2c03b98a4fcc968af34159c02158 = L.popup({maxWidth: '300'});
 
             
-                var html_9a28a347ac5d48948e9247be13a350cc = $('<div id="html_9a28a347ac5d48948e9247be13a350cc" style="width: 100.0%; height: 100.0%;">Population: MG118<br> Species: S. lycopersicum; S. pimpinellifolium<br> Island: SCZ<br> Latitude: -0.671528<br> Longitude: -90.26289399999999<br> Local site name: Cascajo<br> Date sampled: 5/21/2018<br> Population size: 50<br> Sample size: 4</div>')[0];
-                popup_443bab886260461f80f8afe9151ed098.setContent(html_9a28a347ac5d48948e9247be13a350cc);
+                var html_85b07a5c52094696a68dd04bf8fdd957 = $('<div id="html_85b07a5c52094696a68dd04bf8fdd957" style="width: 100.0%; height: 100.0%;">Population: MG118<br> Species: S. lycopersicum; S. pimpinellifolium<br> Island: SCZ<br> Latitude: -0.671528<br> Longitude: -90.26289399999999<br> Local site name: Cascajo<br> Date sampled: 5/21/2018<br> Population size: 50<br> Sample size: 4</div>')[0];
+                popup_b88e2c03b98a4fcc968af34159c02158.setContent(html_85b07a5c52094696a68dd04bf8fdd957);
             
 
-            circle_marker_c386f0245a6244f68511eb73c4ccf0c6.bindPopup(popup_443bab886260461f80f8afe9151ed098);
+            circle_e7c9c9e0c1ea48dfa58365fb799189b0.bindPopup(popup_b88e2c03b98a4fcc968af34159c02158);
 
             
         
     
-            var circle_marker_ccbda46f4aa449fbb47989ee3b419b2a = L.circleMarker(
+
+            var circle_01492c35ba094f51ba5dec882a85d901 = L.circle(
                 [-0.733719,-90.31168000000001],
                 {
   "bubblingMouseEvents": true,
@@ -572,26 +589,27 @@
   "lineCap": "round",
   "lineJoin": "round",
   "opacity": 1.0,
-  "radius": 4,
+  "radius": 400,
   "stroke": true,
   "weight": 3
 }
-                ).addTo(map_784244fa2dfd4d64a27850a0992218ab);
+                ).addTo(map_da26e1830f8e4ec8b1cf2a5eeb6ff4db);
             
     
-            var popup_141daa7e7e1946cea883b59b22200b45 = L.popup({maxWidth: '300'});
+            var popup_04a1c60aa8644c4d979d13d9a6d2d6e7 = L.popup({maxWidth: '300'});
 
             
-                var html_bb1e48e902c74f17962adb56b91d412e = $('<div id="html_bb1e48e902c74f17962adb56b91d412e" style="width: 100.0%; height: 100.0%;">Population: MG119<br> Species: S. lycopersicum<br> Island: SCZ<br> Latitude: -0.733719<br> Longitude: -90.31168000000001<br> Local site name: Puerto Ayora<br> Date sampled: 5/21/2018<br> Population size: 1<br> Sample size: 1</div>')[0];
-                popup_141daa7e7e1946cea883b59b22200b45.setContent(html_bb1e48e902c74f17962adb56b91d412e);
+                var html_dcbe4bc553004b258d0fb7c66ecc0eac = $('<div id="html_dcbe4bc553004b258d0fb7c66ecc0eac" style="width: 100.0%; height: 100.0%;">Population: MG119<br> Species: S. lycopersicum<br> Island: SCZ<br> Latitude: -0.733719<br> Longitude: -90.31168000000001<br> Local site name: Puerto Ayora<br> Date sampled: 5/21/2018<br> Population size: 1<br> Sample size: 1</div>')[0];
+                popup_04a1c60aa8644c4d979d13d9a6d2d6e7.setContent(html_dcbe4bc553004b258d0fb7c66ecc0eac);
             
 
-            circle_marker_ccbda46f4aa449fbb47989ee3b419b2a.bindPopup(popup_141daa7e7e1946cea883b59b22200b45);
+            circle_01492c35ba094f51ba5dec882a85d901.bindPopup(popup_04a1c60aa8644c4d979d13d9a6d2d6e7);
 
             
         
     
-            var circle_marker_900b22b6b56e4098afa1718e534e6c72 = L.circleMarker(
+
+            var circle_2d14a5ff5fdd4d7ebd55509ef0cd83c1 = L.circle(
                 [-0.928464,-90.980253],
                 {
   "bubblingMouseEvents": true,
@@ -605,26 +623,27 @@
   "lineCap": "round",
   "lineJoin": "round",
   "opacity": 1.0,
-  "radius": 4,
+  "radius": 400,
   "stroke": true,
   "weight": 3
 }
-                ).addTo(map_784244fa2dfd4d64a27850a0992218ab);
+                ).addTo(map_da26e1830f8e4ec8b1cf2a5eeb6ff4db);
             
     
-            var popup_31572a269de14701844f987e084475e3 = L.popup({maxWidth: '300'});
+            var popup_b3a3d7b1f678466c836bf2fbdc75d011 = L.popup({maxWidth: '300'});
 
             
-                var html_7efafcf7f3844b269fea576cc832427e = $('<div id="html_7efafcf7f3844b269fea576cc832427e" style="width: 100.0%; height: 100.0%;">Population: MG120<br> Species: S. galapagense; S. cheesmaniae; galXcheese<br> Island: ISB<br> Latitude: -0.928464<br> Longitude: -90.980253<br> Local site name: El Pozo/Laguna Manzanilla<br> Date sampled: 5/26/2018<br> Population size: 50<br> Sample size: 34</div>')[0];
-                popup_31572a269de14701844f987e084475e3.setContent(html_7efafcf7f3844b269fea576cc832427e);
+                var html_fab933f4bd5a4289b827fd7397e0d702 = $('<div id="html_fab933f4bd5a4289b827fd7397e0d702" style="width: 100.0%; height: 100.0%;">Population: MG120<br> Species: S. galapagense; S. cheesmaniae; galXcheese<br> Island: ISB<br> Latitude: -0.928464<br> Longitude: -90.980253<br> Local site name: El Pozo/Laguna Manzanilla<br> Date sampled: 5/26/2018<br> Population size: 50<br> Sample size: 34</div>')[0];
+                popup_b3a3d7b1f678466c836bf2fbdc75d011.setContent(html_fab933f4bd5a4289b827fd7397e0d702);
             
 
-            circle_marker_900b22b6b56e4098afa1718e534e6c72.bindPopup(popup_31572a269de14701844f987e084475e3);
+            circle_2d14a5ff5fdd4d7ebd55509ef0cd83c1.bindPopup(popup_b3a3d7b1f678466c836bf2fbdc75d011);
 
             
         
     
-            var circle_marker_922e352e173b4afab46e19b0909367b6 = L.circleMarker(
+
+            var circle_7a0c73b419e249bbbddbde27e5402646 = L.circle(
                 [-0.9563010000000001,-90.965637],
                 {
   "bubblingMouseEvents": true,
@@ -638,26 +657,27 @@
   "lineCap": "round",
   "lineJoin": "round",
   "opacity": 1.0,
-  "radius": 4,
+  "radius": 400,
   "stroke": true,
   "weight": 3
 }
-                ).addTo(map_784244fa2dfd4d64a27850a0992218ab);
+                ).addTo(map_da26e1830f8e4ec8b1cf2a5eeb6ff4db);
             
     
-            var popup_2ad459e63e984b5cbd3b5e4ddb023ecd = L.popup({maxWidth: '300'});
+            var popup_6a2635fec1164fa8b73b29a349d8cbb5 = L.popup({maxWidth: '300'});
 
             
-                var html_08f81e4e6f184be48219779c5c8e9255 = $('<div id="html_08f81e4e6f184be48219779c5c8e9255" style="width: 100.0%; height: 100.0%;">Population: MG121<br> Species: S. lycopersicum<br> Island: ISB<br> Latitude: -0.9563010000000001<br> Longitude: -90.965637<br> Local site name: Puerto Villamill<br> Date sampled: 5/27/2018<br> Population size: 1<br> Sample size: 1</div>')[0];
-                popup_2ad459e63e984b5cbd3b5e4ddb023ecd.setContent(html_08f81e4e6f184be48219779c5c8e9255);
+                var html_0c421ecc1f4a417f9899c3cac2bcd83b = $('<div id="html_0c421ecc1f4a417f9899c3cac2bcd83b" style="width: 100.0%; height: 100.0%;">Population: MG121<br> Species: S. lycopersicum<br> Island: ISB<br> Latitude: -0.9563010000000001<br> Longitude: -90.965637<br> Local site name: Puerto Villamill<br> Date sampled: 5/27/2018<br> Population size: 1<br> Sample size: 1</div>')[0];
+                popup_6a2635fec1164fa8b73b29a349d8cbb5.setContent(html_0c421ecc1f4a417f9899c3cac2bcd83b);
             
 
-            circle_marker_922e352e173b4afab46e19b0909367b6.bindPopup(popup_2ad459e63e984b5cbd3b5e4ddb023ecd);
+            circle_7a0c73b419e249bbbddbde27e5402646.bindPopup(popup_6a2635fec1164fa8b73b29a349d8cbb5);
 
             
         
     
-            var circle_marker_ebe7a878a2f3452bafcc6142d24928df = L.circleMarker(
+
+            var circle_e7d1ba189d1d4743b9158775c895039b = L.circle(
                 [-0.954225,-90.969003],
                 {
   "bubblingMouseEvents": true,
@@ -671,26 +691,27 @@
   "lineCap": "round",
   "lineJoin": "round",
   "opacity": 1.0,
-  "radius": 4,
+  "radius": 400,
   "stroke": true,
   "weight": 3
 }
-                ).addTo(map_784244fa2dfd4d64a27850a0992218ab);
+                ).addTo(map_da26e1830f8e4ec8b1cf2a5eeb6ff4db);
             
     
-            var popup_7c33f72e9b4a4cbe8ae9c1859a4ec2fa = L.popup({maxWidth: '300'});
+            var popup_1b47f383a8874c6e985dcbac7285ceea = L.popup({maxWidth: '300'});
 
             
-                var html_437a5f628c694818bd276fae1b72ec3a = $('<div id="html_437a5f628c694818bd276fae1b72ec3a" style="width: 100.0%; height: 100.0%;">Population: MG122<br> Species: S. lycopersicum; S. pimpinellifolium<br> Island: ISB<br> Latitude: -0.954225<br> Longitude: -90.969003<br> Local site name: Puerto Villamill<br> Date sampled: 5/27/2018<br> Population size: 2<br> Sample size: 2</div>')[0];
-                popup_7c33f72e9b4a4cbe8ae9c1859a4ec2fa.setContent(html_437a5f628c694818bd276fae1b72ec3a);
+                var html_7d77ab0773d44aa9a68b5a331fb1755d = $('<div id="html_7d77ab0773d44aa9a68b5a331fb1755d" style="width: 100.0%; height: 100.0%;">Population: MG122<br> Species: S. lycopersicum; S. pimpinellifolium<br> Island: ISB<br> Latitude: -0.954225<br> Longitude: -90.969003<br> Local site name: Puerto Villamill<br> Date sampled: 5/27/2018<br> Population size: 2<br> Sample size: 2</div>')[0];
+                popup_1b47f383a8874c6e985dcbac7285ceea.setContent(html_7d77ab0773d44aa9a68b5a331fb1755d);
             
 
-            circle_marker_ebe7a878a2f3452bafcc6142d24928df.bindPopup(popup_7c33f72e9b4a4cbe8ae9c1859a4ec2fa);
+            circle_e7d1ba189d1d4743b9158775c895039b.bindPopup(popup_1b47f383a8874c6e985dcbac7285ceea);
 
             
         
     
-            var circle_marker_9750a231634c4783b2f39d231405703f = L.circleMarker(
+
+            var circle_af6b88bc4fe941858fa66e984da25bdf = L.circle(
                 [-0.9297979999999999,-90.98678699999999],
                 {
   "bubblingMouseEvents": true,
@@ -704,26 +725,27 @@
   "lineCap": "round",
   "lineJoin": "round",
   "opacity": 1.0,
-  "radius": 4,
+  "radius": 400,
   "stroke": true,
   "weight": 3
 }
-                ).addTo(map_784244fa2dfd4d64a27850a0992218ab);
+                ).addTo(map_da26e1830f8e4ec8b1cf2a5eeb6ff4db);
             
     
-            var popup_dedac150c0c54204ad947e83e9905c07 = L.popup({maxWidth: '300'});
+            var popup_14599d7abd2b49f0872ce02e02fc59d9 = L.popup({maxWidth: '300'});
 
             
-                var html_b0174cb9f4504efd874b31633b214a03 = $('<div id="html_b0174cb9f4504efd874b31633b214a03" style="width: 100.0%; height: 100.0%;">Population: MG124<br> Species: S. galapagense<br> Island: ISB<br> Latitude: -0.9297979999999999<br> Longitude: -90.98678699999999<br> Local site name: Puerto Villamill, across hwy from pozo<br> Date sampled: 5/28/2018<br> Population size: 8<br> Sample size: 4</div>')[0];
-                popup_dedac150c0c54204ad947e83e9905c07.setContent(html_b0174cb9f4504efd874b31633b214a03);
+                var html_3d74bebd442d4e419357489fcb5b6b27 = $('<div id="html_3d74bebd442d4e419357489fcb5b6b27" style="width: 100.0%; height: 100.0%;">Population: MG124<br> Species: S. galapagense<br> Island: ISB<br> Latitude: -0.9297979999999999<br> Longitude: -90.98678699999999<br> Local site name: Puerto Villamill, across hwy from pozo<br> Date sampled: 5/28/2018<br> Population size: 8<br> Sample size: 4</div>')[0];
+                popup_14599d7abd2b49f0872ce02e02fc59d9.setContent(html_3d74bebd442d4e419357489fcb5b6b27);
             
 
-            circle_marker_9750a231634c4783b2f39d231405703f.bindPopup(popup_dedac150c0c54204ad947e83e9905c07);
+            circle_af6b88bc4fe941858fa66e984da25bdf.bindPopup(popup_14599d7abd2b49f0872ce02e02fc59d9);
 
             
         
     
-            var circle_marker_36dfbe07a79e448b8c8eade712dae8c7 = L.circleMarker(
+
+            var circle_8412d566d9904790a5b76dc0933e9cb9 = L.circle(
                 [-0.877017,-91.00659399999999],
                 {
   "bubblingMouseEvents": true,
@@ -737,26 +759,27 @@
   "lineCap": "round",
   "lineJoin": "round",
   "opacity": 1.0,
-  "radius": 4,
+  "radius": 400,
   "stroke": true,
   "weight": 3
 }
-                ).addTo(map_784244fa2dfd4d64a27850a0992218ab);
+                ).addTo(map_da26e1830f8e4ec8b1cf2a5eeb6ff4db);
             
     
-            var popup_ccd9aecb10ca442088e04f8dacb3e4cc = L.popup({maxWidth: '300'});
+            var popup_a2762551017e4efc95c73fc30eeeba22 = L.popup({maxWidth: '300'});
 
             
-                var html_515bc41b65a94711b49719a1b6f42d85 = $('<div id="html_515bc41b65a94711b49719a1b6f42d85" style="width: 100.0%; height: 100.0%;">Population: MG125<br> Species: S. lycopersicum; S. pimpinellifolium<br> Island: ISB<br> Latitude: -0.877017<br> Longitude: -91.00659399999999<br> Local site name: Basudero<br> Date sampled: 5/28/2018<br> Population size: 700<br> Sample size: 10</div>')[0];
-                popup_ccd9aecb10ca442088e04f8dacb3e4cc.setContent(html_515bc41b65a94711b49719a1b6f42d85);
+                var html_9c2f6606836d403b95dc4dd4c9bd8310 = $('<div id="html_9c2f6606836d403b95dc4dd4c9bd8310" style="width: 100.0%; height: 100.0%;">Population: MG125<br> Species: S. lycopersicum; S. pimpinellifolium<br> Island: ISB<br> Latitude: -0.877017<br> Longitude: -91.00659399999999<br> Local site name: Basudero<br> Date sampled: 5/28/2018<br> Population size: 700<br> Sample size: 10</div>')[0];
+                popup_a2762551017e4efc95c73fc30eeeba22.setContent(html_9c2f6606836d403b95dc4dd4c9bd8310);
             
 
-            circle_marker_36dfbe07a79e448b8c8eade712dae8c7.bindPopup(popup_ccd9aecb10ca442088e04f8dacb3e4cc);
+            circle_8412d566d9904790a5b76dc0933e9cb9.bindPopup(popup_a2762551017e4efc95c73fc30eeeba22);
 
             
         
     
-            var circle_marker_c4f55e8c323b409f9b6a789db6700379 = L.circleMarker(
+
+            var circle_a35ce59e9b734c8b8e9a18690b8211ca = L.circle(
                 [-0.850137,-91.024555],
                 {
   "bubblingMouseEvents": true,
@@ -770,26 +793,27 @@
   "lineCap": "round",
   "lineJoin": "round",
   "opacity": 1.0,
-  "radius": 4,
+  "radius": 400,
   "stroke": true,
   "weight": 3
 }
-                ).addTo(map_784244fa2dfd4d64a27850a0992218ab);
+                ).addTo(map_da26e1830f8e4ec8b1cf2a5eeb6ff4db);
             
     
-            var popup_351038593b4b43b08cc378804c5a1a99 = L.popup({maxWidth: '300'});
+            var popup_deb1716ac13c4fca86eb6e88b72bb737 = L.popup({maxWidth: '300'});
 
             
-                var html_d9f90a89d3d24363850fa8070bb4f398 = $('<div id="html_d9f90a89d3d24363850fa8070bb4f398" style="width: 100.0%; height: 100.0%;">Population: MG126<br> Species: S. lycopersicum<br> Island: ISB<br> Latitude: -0.850137<br> Longitude: -91.024555<br> Local site name: Esperanza<br> Date sampled: 5/28/2018<br> Population size: 500<br> Sample size: 5</div>')[0];
-                popup_351038593b4b43b08cc378804c5a1a99.setContent(html_d9f90a89d3d24363850fa8070bb4f398);
+                var html_e9f4020a6a12498ba4dd13c162e62332 = $('<div id="html_e9f4020a6a12498ba4dd13c162e62332" style="width: 100.0%; height: 100.0%;">Population: MG126<br> Species: S. lycopersicum<br> Island: ISB<br> Latitude: -0.850137<br> Longitude: -91.024555<br> Local site name: Esperanza<br> Date sampled: 5/28/2018<br> Population size: 500<br> Sample size: 5</div>')[0];
+                popup_deb1716ac13c4fca86eb6e88b72bb737.setContent(html_e9f4020a6a12498ba4dd13c162e62332);
             
 
-            circle_marker_c4f55e8c323b409f9b6a789db6700379.bindPopup(popup_351038593b4b43b08cc378804c5a1a99);
+            circle_a35ce59e9b734c8b8e9a18690b8211ca.bindPopup(popup_deb1716ac13c4fca86eb6e88b72bb737);
 
             
         
     
-            var circle_marker_9f3369ac02e64989ad7235f679a8415a = L.circleMarker(
+
+            var circle_8672d0d69a394eb9b08a3fb4414913dd = L.circle(
                 [-0.923061,-90.989148],
                 {
   "bubblingMouseEvents": true,
@@ -803,26 +827,27 @@
   "lineCap": "round",
   "lineJoin": "round",
   "opacity": 1.0,
-  "radius": 4,
+  "radius": 400,
   "stroke": true,
   "weight": 3
 }
-                ).addTo(map_784244fa2dfd4d64a27850a0992218ab);
+                ).addTo(map_da26e1830f8e4ec8b1cf2a5eeb6ff4db);
             
     
-            var popup_bdac535993734176878dfcbd92d34676 = L.popup({maxWidth: '300'});
+            var popup_ac1cb127d9724fc68a521b6838e066d6 = L.popup({maxWidth: '300'});
 
             
-                var html_108792f150674bacb928aa105a58f112 = $('<div id="html_108792f150674bacb928aa105a58f112" style="width: 100.0%; height: 100.0%;">Population: MG127<br> Species: S. galapagense<br> Island: ISB<br> Latitude: -0.923061<br> Longitude: -90.989148<br> Local site name: Road to St Tomas<br> Date sampled: 5/29/2018<br> Population size: 6<br> Sample size: 2</div>')[0];
-                popup_bdac535993734176878dfcbd92d34676.setContent(html_108792f150674bacb928aa105a58f112);
+                var html_5dadb38c2c7b4419b4eca5040fbbf655 = $('<div id="html_5dadb38c2c7b4419b4eca5040fbbf655" style="width: 100.0%; height: 100.0%;">Population: MG127<br> Species: S. galapagense<br> Island: ISB<br> Latitude: -0.923061<br> Longitude: -90.989148<br> Local site name: Road to St Tomas<br> Date sampled: 5/29/2018<br> Population size: 6<br> Sample size: 2</div>')[0];
+                popup_ac1cb127d9724fc68a521b6838e066d6.setContent(html_5dadb38c2c7b4419b4eca5040fbbf655);
             
 
-            circle_marker_9f3369ac02e64989ad7235f679a8415a.bindPopup(popup_bdac535993734176878dfcbd92d34676);
+            circle_8672d0d69a394eb9b08a3fb4414913dd.bindPopup(popup_ac1cb127d9724fc68a521b6838e066d6);
 
             
         
     
-            var circle_marker_5e48d5200f974d2eacdce0653924a2f9 = L.circleMarker(
+
+            var circle_d74715849a9449dc96ae7874c8b66249 = L.circle(
                 [-0.9531040000000001,-90.96350799999999],
                 {
   "bubblingMouseEvents": true,
@@ -836,21 +861,21 @@
   "lineCap": "round",
   "lineJoin": "round",
   "opacity": 1.0,
-  "radius": 4,
+  "radius": 400,
   "stroke": true,
   "weight": 3
 }
-                ).addTo(map_784244fa2dfd4d64a27850a0992218ab);
+                ).addTo(map_da26e1830f8e4ec8b1cf2a5eeb6ff4db);
             
     
-            var popup_3be5e6d4703f45a6af63e6f1ef29a7c8 = L.popup({maxWidth: '300'});
+            var popup_7ea7428fc3b24254bf9b82c7ec9e48aa = L.popup({maxWidth: '300'});
 
             
-                var html_d9dd0ab54b0a42de8b26c1125ae35354 = $('<div id="html_d9dd0ab54b0a42de8b26c1125ae35354" style="width: 100.0%; height: 100.0%;">Population: MG128<br> Species: lycoXpimp<br> Island: ISB<br> Latitude: -0.9531040000000001<br> Longitude: -90.96350799999999<br> Local site name: Puerto Villamill<br> Date sampled: 5/29/2018<br> Population size: 1<br> Sample size: 1</div>')[0];
-                popup_3be5e6d4703f45a6af63e6f1ef29a7c8.setContent(html_d9dd0ab54b0a42de8b26c1125ae35354);
+                var html_e6fae5cac713455f9391ca5695ef79e9 = $('<div id="html_e6fae5cac713455f9391ca5695ef79e9" style="width: 100.0%; height: 100.0%;">Population: MG128<br> Species: lycoXpimp<br> Island: ISB<br> Latitude: -0.9531040000000001<br> Longitude: -90.96350799999999<br> Local site name: Puerto Villamill<br> Date sampled: 5/29/2018<br> Population size: 1<br> Sample size: 1</div>')[0];
+                popup_7ea7428fc3b24254bf9b82c7ec9e48aa.setContent(html_e6fae5cac713455f9391ca5695ef79e9);
             
 
-            circle_marker_5e48d5200f974d2eacdce0653924a2f9.bindPopup(popup_3be5e6d4703f45a6af63e6f1ef29a7c8);
+            circle_d74715849a9449dc96ae7874c8b66249.bindPopup(popup_7ea7428fc3b24254bf9b82c7ec9e48aa);
 
             
         
