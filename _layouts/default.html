@@ -43,16 +43,22 @@
     </ul>
 <hr>
       <div class="row">
-        <div class="col-md-11"><p style="font-size: 180%; margin-right: 10px; margin-left: 10px"><img src="AboutPageAssets/images/pic1.png" alt="Santa Cruz, Galapagos" width="300" class="img-rounded" style="float: left; margin-right: 20px; margin-left:10px">{{ content }}</p></div>
+        <div class="col-md-11"><p style="font-size: 180%; margin-right: 10px; margin-left: 10px"><img src="AboutPageAssets/images/pic1.png" alt="Santa Cruz, Galapagos" width="320" class="img-rounded" style="float: left; margin-right: 20px; margin-left:10px">{{ content }}</p></div>
       </div>
-<div class="col-md-11"><p style="font-size: 180%; margin-right: 10px; margin-left: 10px"><ul class="myposts">
-{% for post in site.posts %}
-    <li><a href="{{ post.url }}">{{ post.title}}</a>
-    <span class="postDate">{{ post.date | date: "%b %-d, %Y" }}</span>
-    </li>
-{% endfor %}
-</ul></p></div>
-      </div>
+<div class="col-md-11"><p style="font-size: 180%; margin-right: 10px; margin-left: 10px"><ul class="myposts"></ul></p></div>
+<hr>
+<div class="col-md-11">
+  <p style="font-size: 150%; margin-right: 10px; margin-left: 10px; text-align: left; font-weight: bold">News:
+    <li>Matt receives the IU Brackenridge fellowship to fund another field season on the Galápagos</a> [April 2019]</li>
+    <li>Our Jaltomata floral QTL paper is published in <a href="https://nph.onlinelibrary.wiley.com/doi/10.1111/nph.15844">New Phytologist</a> [April 2019]</li>
+    <li>Matt advances to candidacy [Feb 2019]</li>
+    <li>Matt is on the Galápagos Islands for a month collecting endemic Solanum [May 2018]</li>
+  
+  </p>
+</div>
+
+
+</div>
 </div>
 <hr>
 {% include footer.html %}
