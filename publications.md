@@ -10,15 +10,16 @@ Please see my <a href="https://scholar.google.com/citations?user=EmLgNEEAAAAJ&hl
 
 #### *In preparation*
 
-**Gibson, M.J.S.**, Lourdes Torres, M., & Moyle, L.C. (2019). Local extirpation is pervasive among historical populations of Galápagos endemic tomatoes
+**Gibson, M.J.S.**, Lourdes Torres, M., & Moyle, L.C. (2019). Local extirpation is pervasive among historical populations of Galápagos endemic tomatoes.
 
-**Gibson, M.J.S.** & Moyle, L.C. (2019). Environmental differences contribute to genomic divergence within a wild tomato species
+**Gibson, M.J.S.**, Crawford, D.J., Mort, M.E., Kerbs, B., Menzes de Sequeirra, M., Kelly, J.K. (2019). Genome-wide genotyping estimates mating system parameters in the island species Tolpis succulenta.
 
 <hr>
 
 #### *In review*
 
-**Gibson, M.J.S.**, Crawford, D.J., Mort, M.E., Kerbs, B., Menzes de Sequeirra, M., Kelly, J.K. (2019). Genome-wide genotyping estimates mating system parameters in the island species Tolpis succulenta. *In review at The American Journal of Botany*
+**Gibson, M.J.S.** & Moyle, L.C. (2019). Regional differences in the abiotic environment contribute to genomic divergence within a wild tomato species. *In review at Molecualr Ecology*. [BioRxiv: <a href="https://doi.org/10.1101/744797">10.1101/744797</a>]
+
 
 Jewell, C.P., Zhang, S., **Gibson, M.J.S.**, Tovar-Mendez, A., McClure, B., & Moyle, L.C. (2019).. Intraspecific standing variation underlying reproductive barriers between species in the wild tomato clade (Solanum sect. Lycopersicon). *In review at the Journal of Heredity*. [BioRxiv: <a href="https://doi.org/10.1101/718544">10.1101/718544</a>]
 
