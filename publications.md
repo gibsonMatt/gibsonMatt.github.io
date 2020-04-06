@@ -21,8 +21,8 @@ Please see my <a href="https://scholar.google.com/citations?user=EmLgNEEAAAAJ&hl
 <hr>
 
 #### *Peer-reviewed publications*
-
-**Gibson, M.J.S.** & Torres, M.L., & Moyle, L.C. (2020). Local extirpation is pervasive among populations of Galapagos endemic tomatoes. *Evolutionary Ecology*. [doi: <a href="https://doi.org/10.1007/s10682-020-10035-3">10.1007/s10682-020-10035-3</a>]  [BioRxiv: <a href="https://doi.org/10.1101/814160">10.1101/814160</a>]
+![EVEC 2020 Cover](AboutPageAssets/images/cover_evec_2020.png){:width="100" align="right"}
+**Gibson, M.J.S.** & Torres, M.L., & Moyle, L.C. (2020). Local extirpation is pervasive among populations of Galapagos endemic tomatoes. *Evolutionary Ecology*. [doi: <a href="https://doi.org/10.1007/s10682-020-10035-3">10.1007/s10682-020-10035-3</a>]  [BioRxiv: <a href="https://doi.org/10.1101/814160">10.1101/814160</a>] \***Cover Article**
 
 Jewell, C.P., Zhang, S., **Gibson, M.J.S.**, Tovar-Mendez, A., McClure, B., & Moyle, L.C. (2020). Intraspecific standing variation underlying reproductive barriers between species in the wild tomato clade (Solanum sect. Lycopersicon). *Journal of Heredity*. esaa003: 1-11. [doi: <a href="https://doi.org/10.1093/jhered/esaa003">10.1007/s10682-020-10035-3</a>]  [BioRxiv: <a href="https://doi.org/10.1101/718544">10.1101/718544</a>]
 
