@@ -12,4 +12,4 @@ layout: resources
 
 ### Shiny Apps
 
-<a href="https://gibsonmatt.shinyapps.io/mvnselection/">Simulate allele frequnecy divergence using a multivariate normal</a><br>
+<a href="https://gibsonmatt.shinyapps.io/mvnselection/">Simulate allele frequency divergence using a multivariate normal</a><br>
