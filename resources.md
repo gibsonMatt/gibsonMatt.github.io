@@ -14,9 +14,9 @@ layout: resources
 
 <a href="https://github.com/mhibbins/HeIST">HeIST: Hemiplasy Inference Simulation Tool</a><br>
 
-### Utilites
+### Utilities
 
-<a href="https://github.com/gibsonMatt/stacks-pairwise">stacks-pairwise: Calculate pairwise divergence between samples from Stacks RAD genotyping output</a><br
+<a href="https://github.com/gibsonMatt/stacks-pairwise">stacks-pairwise: Calculate pairwise divergence between samples from Stacks RAD genotyping output</a><br>
 
 ### Shiny Apps
 
