@@ -15,11 +15,11 @@ Please see my <a href="https://scholar.google.com/citations?user=EmLgNEEAAAAJ&hl
 
 Hibbins, M.S., **Gibson, M.J.S.**, & Hahn, M.W. (2020). Determining the probability of hemiplasy in the presence of incomplete lineage sorting and introgression.  [BioRxiv: <a href="https://doi.org/10.1101/2020.04.15.043752 ">10.1101/2020.04.15.043752</a>]
 
-**Gibson, M.J.S.** & Moyle, L.C. (2020). Regional differences in the abiotic environment contribute to genomic divergence within a wild tomato species. *In revision at Molecular Ecology*. [BioRxiv: <a href="https://doi.org/10.1101/744797">10.1101/744797</a>]
-
 <hr>
 
 #### *Peer-reviewed publications*
+
+**Gibson, M.J.S.** & Moyle, L.C. (2020). Regional differences in the abiotic environment contribute to genomic divergence within a wild tomato species. *In press at Molecular Ecology*. [BioRxiv: <a href="https://doi.org/10.1101/744797">10.1101/744797</a>]
 
 **Gibson, M.J.S.\***, Crawford, D.J.\*, Holder, M.T.\*, Mort, M.E., Kerbs, B., Menzes de Sequeira, M., Kelly, J.K. (2020). Genome-wide genotyping estimates mating system parameters in the island species Tolpis succulenta. *In press at American Journal of Botany*
 
