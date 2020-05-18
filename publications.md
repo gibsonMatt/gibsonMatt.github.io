@@ -19,7 +19,7 @@ Hibbins, M.S., **Gibson, M.J.S.**, & Hahn, M.W. (2020). Determining the probabil
 
 #### *Peer-reviewed publications*
 
-**Gibson, M.J.S.** & Moyle, L.C. (2020). Regional differences in the abiotic environment contribute to genomic divergence within a wild tomato species. *In press at Molecular Ecology*. [BioRxiv: <a href="https://doi.org/10.1101/744797">10.1101/744797</a>]
+**Gibson, M.J.S.** & Moyle, L.C. (2020). Regional differences in the abiotic environment contribute to genomic divergence within a wild tomato species. *Molecular Ecology*. [doi: <a href="https://doi.org/10.1111/mec.15477">10.1111/mec.15477</a>] [BioRxiv: <a href="https://doi.org/10.1101/744797">10.1101/744797</a>]
 
 **Gibson, M.J.S.\***, Crawford, D.J.\*, Holder, M.T.\*, Mort, M.E., Kerbs, B., Menzes de Sequeira, M., Kelly, J.K. (2020). Genome-wide genotyping estimates mating system parameters in the island species Tolpis succulenta. *In press at American Journal of Botany*
 
