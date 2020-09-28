@@ -13,6 +13,9 @@ Please see my <a href="https://scholar.google.com/citations?user=EmLgNEEAAAAJ&hl
 
 #### *In review/revision*
 
+**Gibson, M.J.S.**, Torres, M.L., Brandvain, Y., & Moyle, L.C. (2020). Reconstructing the history and biological consequences of a plant invasion on the Galapagos islands. [BioRxiv: <a href="https://doi.org/10.1101/2020.09.26.313627">2020.09.26.313627</a>
+
+
 Hibbins, M.S., **Gibson, M.J.S.**, & Hahn, M.W. (2020). Determining the probability of hemiplasy in the presence of incomplete lineage sorting and introgression.  [BioRxiv: <a href="https://doi.org/10.1101/2020.04.15.043752 ">10.1101/2020.04.15.043752</a>]
 
 <hr>
