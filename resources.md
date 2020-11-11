@@ -20,4 +20,6 @@ layout: resources
 
 ### Shiny Apps
 
-<a href="https://gibsonmatt.shinyapps.io/mvnselection/">Simulate allele frequency divergence using a multivariate normal</a><br>
+<a href="https://gibsonmatt.shinyapps.io/mvnselection/">mvnselection: Simulate allele frequency divergence using a multivariate normal</a><br>
+![Pretty Map](AboutPageAssets/images/prettymap_preview.png){:width="500" align="right"}
+<a href="https://gibsonmatt.shinyapps.io/prettymap/">prettymap: Make publication-ready maps using ggplot</a>
