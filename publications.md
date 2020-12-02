@@ -13,6 +13,8 @@ Please see my <a href="https://scholar.google.com/citations?user=EmLgNEEAAAAJ&hl
 
 #### *In review/revision*
 
+Moyle, L.C., Wu, M., & **Gibson, M.J.S.**. (2020). Reproductive proteins evolve faster than non-reproductive proteins among Solanum species. [BioRxiv: <a href="https://doi.org/10.1101/2020.11.30.405183">2020.11.30.405183</a>
+
 **Gibson, M.J.S.**, Torres, M.L., Brandvain, Y., & Moyle, L.C. (2020). Reconstructing the history and biological consequences of a plant invasion on the Galapagos islands. [BioRxiv: <a href="https://doi.org/10.1101/2020.09.26.313627">2020.09.26.313627</a>
 
 
