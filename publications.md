@@ -17,12 +17,11 @@ Moyle, L.C., Wu, M., & **Gibson, M.J.S.**. (2020). Reproductive proteins evolve 
 
 **Gibson, M.J.S.**, Torres, M.L., Brandvain, Y., & Moyle, L.C. (2020). Reconstructing the history and biological consequences of a plant invasion on the Galapagos islands. [BioRxiv: <a href="https://doi.org/10.1101/2020.09.26.313627">2020.09.26.313627</a>
 
-
-Hibbins, M.S., **Gibson, M.J.S.**, & Hahn, M.W. (2020). Determining the probability of hemiplasy in the presence of incomplete lineage sorting and introgression.  [BioRxiv: <a href="https://doi.org/10.1101/2020.04.15.043752 ">10.1101/2020.04.15.043752</a>]
-
 <hr>
 
 #### *Peer-reviewed publications*
+
+Hibbins, M.S., **Gibson, M.J.S.**, & Hahn, M.W. (2020). Determining the probability of hemiplasy in the presence of incomplete lineage sorting and introgression. *eLife* 9: e63753. [doi: <a href="https://doi.org/10.7554/eLife.63753">10.7554/eLife.63753</a>] [BioRxiv: <a href="https://doi.org/10.1101/2020.04.15.043752 ">10.1101/2020.04.15.043752</a>]
 
 **Gibson, M.J.S.** & Moyle, L.C. (2020). Regional differences in the abiotic environment contribute to genomic divergence within a wild tomato species. *Molecular Ecology*. [doi: <a href="https://doi.org/10.1111/mec.15477">10.1111/mec.15477</a>] [BioRxiv: <a href="https://doi.org/10.1101/744797">10.1101/744797</a>]
 
