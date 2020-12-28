@@ -25,10 +25,10 @@ Hibbins, M.S., **Gibson, M.J.S.**, & Hahn, M.W. (2020). Determining the probabil
 
 **Gibson, M.J.S.** & Moyle, L.C. (2020). Regional differences in the abiotic environment contribute to genomic divergence within a wild tomato species. *Molecular Ecology* 29(12): 2204-2217. [doi: <a href="https://doi.org/10.1111/mec.15477">10.1111/mec.15477</a>] [BioRxiv: <a href="https://doi.org/10.1101/744797">10.1101/744797</a>]
 
-**Gibson, M.J.S.\***, Crawford, D.J.\*, Holder, M.T.\*, Mort, M.E., Kerbs, B., Menzes de Sequeira, M., Kelly, J.K. (2020). Genome-wide genotyping estimates mating system parameters in the island species Tolpis succulenta. *In press at American Journal of Botany*
+**Gibson, M.J.S.\***, Crawford, D.J.\*, Holder, M.T.\*, Mort, M.E., Kerbs, B., Menzes de Sequeira, M., Kelly, J.K. (2020). Genome-wide genotyping estimates mating system parameters in the island species Tolpis succulenta. *American Journal of Botany* 107(8): 1189-1197. [doi: <a href="https://doi.org/10.1002/ajb2.1515">10.1002/ajb2.1515</a>
 
 ![EVEC 2020 Cover](AboutPageAssets/images/cover_evec_2020.png){:width="100" align="right"}
-**Gibson, M.J.S.** & Torres, M.L., & Moyle, L.C. (2020). Local extirpation is pervasive among populations of Galapagos endemic tomatoes. *Evolutionary Ecology*. [doi: <a href="https://doi.org/10.1007/s10682-020-10035-3">10.1007/s10682-020-10035-3</a>]  [BioRxiv: <a href="https://doi.org/10.1101/814160">10.1101/814160</a>] \***Cover Article**
+**Gibson, M.J.S.** & Torres, M.L., & Moyle, L.C. (2020). Local extirpation is pervasive among populations of Galapagos endemic tomatoes. *Evolutionary Ecology* 34: 289-307. [doi: <a href="https://doi.org/10.1007/s10682-020-10035-3">10.1007/s10682-020-10035-3</a>]  [BioRxiv: <a href="https://doi.org/10.1101/814160">10.1101/814160</a>] \***Cover Article**
 
 Jewell, C.P., Zhang, S., **Gibson, M.J.S.**, Tovar-Mendez, A., McClure, B., & Moyle, L.C. (2020). Intraspecific standing variation underlying reproductive barriers between species in the wild tomato clade (Solanum sect. Lycopersicon). *Journal of Heredity*. esaa003: 1-11. [doi: <a href="https://doi.org/10.1093/jhered/esaa003">10.1007/s10682-020-10035-3</a>]  [BioRxiv: <a href="https://doi.org/10.1101/718544">10.1101/718544</a>]
 
