@@ -23,3 +23,8 @@ layout: resources
 <a href="https://gibsonmatt.shinyapps.io/mvnselection/">mvnselection: Simulate allele frequency divergence using a multivariate normal</a><br>
 ![Pretty Map](AboutPageAssets/images/prettymap_preview.png){:width="500" align="right"}
 <a href="https://gibsonmatt.shinyapps.io/prettymap/">prettymap: Make publication-ready maps using ggplot</a>
+
+
+### Data
+
+<a href="AboutPageAssets/files/ckh_1948_tidy.csv"> Data from Clausen, Keck, & Hiesey (1948) in tidy format</a>
