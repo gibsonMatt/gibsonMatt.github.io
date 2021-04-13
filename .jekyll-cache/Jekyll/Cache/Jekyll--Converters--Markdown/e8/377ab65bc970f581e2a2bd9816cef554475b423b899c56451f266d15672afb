@@ -1,0 +1,25 @@
+I"µ<h3 id="links">Links</h3>
+
+<p><a href="field_sites.html">Interactive map of Galapagos field sites</a><br />
+<a href="http://tgrc.ucdavis.edu">Tomato Genetics Resource Center</a><br />
+<a href="AboutPageAssets/vids/mockingbird_2019.mp4"> Galapagos Mockingbird eating <em>S. cheesmaniae</em> fruits</a>
+<br /></p>
+
+<h3 id="software">Software</h3>
+
+<p><a href="https://github.com/mhibbins/HeIST">HeIST: Hemiplasy Inference Simulation Tool</a><br /></p>
+
+<h3 id="utilities">Utilities</h3>
+
+<p><a href="https://github.com/gibsonMatt/stacks-pairwise">stacks-pairwise: Calculate pairwise divergence between samples from Stacks RAD genotyping output</a><br /></p>
+
+<h3 id="shiny-apps">Shiny Apps</h3>
+
+<p><a href="https://gibsonmatt.shinyapps.io/mvnselection/">mvnselection: Simulate allele frequency divergence using a multivariate normal</a><br />
+<img src="AboutPageAssets/images/prettymap_preview.png" alt="Pretty Map" width="500" align="right" />
+<a href="https://gibsonmatt.shinyapps.io/prettymap/">prettymap: Make publication-ready maps using ggplot</a></p>
+
+<h3 id="data">Data</h3>
+
+<p><a href="AboutPageAssets/files/ckh_1948_tidy.csv"> Data from Clausen, Keck, &amp; Hiesey (1948) in tidy format</a></p>
+:ET
