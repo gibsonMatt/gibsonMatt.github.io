@@ -8,7 +8,6 @@ from datetime import datetime
 
 parser = argparse.ArgumentParser(description = "Update news")
 
-parser.add_argument("-u", "--update", help = "Parse news file and update html")
 parser.add_argument("-p", "--push", help = "Automatically push to github repo", action = "store_true")
 parser.add_argument("-n", "--num", help = "Number of news items to display", default = 5)
 
@@ -52,9 +51,7 @@ if (args.num > len(formattedItems.keys())):
     args.num = len(formattedItems.keys())
 
 lst_di = list(od.items())
-print(lst_di[0][1])
 
-print(lst_di[1][1])
 for i in range(0, args.num):
     htmlFile.write(lst_di[i][1] + '\n')
 
