@@ -64,6 +64,6 @@ htmlFile.close()
 if (args.push):
     os.system("git add --all")
     os.system("git commit -m 'update news'")
-    o.system("git push")
+    os.system("git push")
 
 
