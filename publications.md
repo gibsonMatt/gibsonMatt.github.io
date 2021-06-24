@@ -11,14 +11,10 @@ Please see my <a href="https://scholar.google.com/citations?user=EmLgNEEAAAAJ&hl
 
 \* Equal contribution
 
-#### *In review/revision*
-
-**Gibson, M.J.S.**, Torres, M.L., Brandvain, Y., & Moyle, L.C. (2020). Reconstructing the history and biological consequences of a plant invasion on the Galapagos islands. [BioRxiv: <a href="https://doi.org/10.1101/2020.09.26.313627">2020.09.26.313627</a>
-
-<hr>
 
 #### *Peer-reviewed publications*
 
+**Gibson, M.J.S.**, Torres, M.L., Brandvain, Y., & Moyle, L.C. (2020). Reconstructing the history and biological consequences of a plant invasion on the Galapagos islands. [doi: <a href="https://elifesciences.org/articles/64165">10.7554/eLife.64165</a>] [BioRxiv: <a href="https://doi.org/10.1101/2020.09.26.313627">2020.09.26.313627</a>]
 
 Moyle, L.C., Wu, M., & **Gibson, M.J.S.**. (2020). Reproductive proteins evolve faster than non-reproductive proteins among Solanum species. *Frontiers in Plant Science* 12: 635990. [doi: <a href="https://doi.org/10.3389/fpls.2021.635990">10.3389/fpls.2021.635990</a>] [BioRxiv: <a href="https://doi.org/10.1101/2020.11.30.405183">2020.11.30.405183</a>]
 
