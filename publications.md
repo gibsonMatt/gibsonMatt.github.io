@@ -11,6 +11,11 @@ Please see my <a href="https://scholar.google.com/citations?user=EmLgNEEAAAAJ&hl
 
 \* Equal contribution
 
+Stewart, C.M., **Gibson, M.J.S.**, Parsa, J., Li, J.H. (2024). A comparison between low-cost library preparation kits for low coverage sequencing. [BioRxiv: <a href="https://doi.org/10.1101/2024.01.30.578044">2024.01.30.578044</a>]
+
+Li, J.H., Liu, A., Buerkle, C.A., Palmer, W., Belbin, G.M., Ahangari, M., **Gibson, M.J.S.**, Flagel, L. (2023). The effects of reference panel perturbations on the accuracy of genotype imputation. [BioRxiv: <a href="https://doi.org/10.1101/2023.08.10.552684">2023.08.10.552684</a>]
+
+**Gibson, M.J.S.** (2022). Genetic Investigations of Adaptation, Invasion, and Phenotypic Convergence in the Tomato Species S. pimpinellifolium. *Indiana University ProQuest Dissertations Publishing*. [doi: <a href="https://www.proquest.com/openview/57752be2bc41ac57911d2711fe0f501a/1?pq-origsite=gscholar&cbl=18750&diss=y">29328342</a>]
 
 #### *Peer-reviewed publications*
 
