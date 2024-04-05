@@ -17,7 +17,9 @@ Li, J.H., Liu, A., Buerkle, C.A., Palmer, W., Belbin, G.M., Ahangari, M., **Gibs
 
 **Gibson, M.J.S.** (2022). Genetic Investigations of Adaptation, Invasion, and Phenotypic Convergence in the Tomato Species S. pimpinellifolium. *Indiana University ProQuest Dissertations Publishing*. [doi: <a href="https://www.proquest.com/openview/57752be2bc41ac57911d2711fe0f501a/1?pq-origsite=gscholar&cbl=18750&diss=y">29328342</a>]
 
-#### *Peer-reviewed publications*
+#### *Peer-reviewed publications and book chapters*
+
+Torres, M.d.L., Urquía, D., Moyle, L., **Gibson, M.J.S.**, Vision, T., Reatini, B. (2023). Unravelling the Interactions Between Endemic and Invasive Plant Species in the Galapagos Islands. In: Walsh, S.J., Mena, C.F., Stewart, J.R., Muñoz Pérez, J.P. (eds) Island Ecosystems. Social and Ecological Interactions in the Galapagos Islands. Springer. [doi: <a href="https://doi.org/10.1007/978-3-031-28089-4_12">978-3-031-28089-4_12</a>]
 
 **Gibson, M.J.S.**, Torres, M.L., Brandvain, Y., & Moyle, L.C. (2021). Introgression shapes fruit color convergence in invasive Galápagos tomato. [doi: <a href="https://elifesciences.org/articles/64165">10.7554/eLife.64165</a>] [BioRxiv: <a href="https://doi.org/10.1101/2020.09.26.313627">2020.09.26.313627</a>]
 
